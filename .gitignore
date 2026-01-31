@@ -1,0 +1,22 @@
+# --- Python ---
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# --- C Kernel Module ---
+# コンパイル生成物を無視
+kernel_module/*.o
+kernel_module/*.ko
+kernel_module/*.mod.c
+kernel_module/modules.order
+kernel_module/Module.symvers
+kernel_module/.*.cmd
+kernel_module/.tmp_versions/
+
+# --- Others ---
+.DS_Store
+.vscode/
