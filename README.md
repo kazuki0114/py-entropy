@@ -1,5 +1,7 @@
 # py-entropy ⏳
 
+[English](README.md) | [日本語](README.ja.md)
+
 ![py-entropy Logo](logo.png)
 
 **The First Organic Memory Allocator for Python.**
@@ -16,6 +18,16 @@
 The core logic is implemented, but the Kernel Module features are experimental. Expect bugs, crashes, or unexpected behavior.
 
 ---
+
+## ⚠️ Disclaimer (Must Read)
+
+**THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.**
+
+- **Experimental Nature:** This library includes a **Linux Kernel Module** that directly manipulates memory addresses. While designed with safety in mind, it involves operations that are inherently risky.
+- **System Stability:** Improper use or unexpected bugs in the kernel module may cause system instability, freezes, or **Kernel Panics (Blue/Black Screen of Death)**.
+- **Data Safety:** Do not use this on critical production systems or machines containing unsaved important data.
+
+**The author (and contributors) takes NO RESPONSIBILITY for any damage, data loss, or hardware failure resulting from the use of this software.** **USE AT YOUR OWN RISK.** ☠️
 
 ## 🧐 What is this?
 
@@ -77,12 +89,4 @@ print(f"5s Later: {secret}")
 # Output example: "Th%s is @ tOp s#crXt mXs?age."
 ```
 
-## ⚠️ Disclaimer (Must Read)
 
-**THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.**
-
-- **Experimental Nature:** This library includes a **Linux Kernel Module** that directly manipulates memory addresses. While designed with safety in mind, it involves operations that are inherently risky.
-- **System Stability:** Improper use or unexpected bugs in the kernel module may cause system instability, freezes, or **Kernel Panics (Blue/Black Screen of Death)**.
-- **Data Safety:** Do not use this on critical production systems or machines containing unsaved important data.
-
-**The author (and contributors) takes NO RESPONSIBILITY for any damage, data loss, or hardware failure resulting from the use of this software.** **USE AT YOUR OWN RISK.** ☠️
