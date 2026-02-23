@@ -1,5 +1,7 @@
 # py-entropy ⏳
 
+[English](README.md) | [日本語](README.ja.md)
+
 ![py-entropy Logo](logo.png)
 
 **The First Organic Memory Allocator for Python.**
@@ -86,3 +88,4 @@ print(f"5s Later: {secret}")
 - **Data Safety:** Do not use this on critical production systems or machines containing unsaved important data.
 
 **The author (and contributors) takes NO RESPONSIBILITY for any damage, data loss, or hardware failure resulting from the use of this software.** **USE AT YOUR OWN RISK.** ☠️
+
